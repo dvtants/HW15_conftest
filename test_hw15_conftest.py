@@ -50,4 +50,11 @@ class TestPage1():  # тест суіти знаходяться в класах
 # дивись файл pytest.ini - зникає warnings - попередження.
 # дивись файл conftest.py - назва цього файла саме така і не повинна змінюватися.
 # pytest -s -v test_hw15_conftest.py
-# pytest -s -v --browser_mode='gui' test_hw15_conftest.py
+# pytest -s -v --browser_mode="gui" test_hw15_conftest.py
+# pytest -s -v --browser_mode="headless" test_hw15_conftest.py
+# pytest -s -v --browser_name="firefox" --browser_mode="gui" --browser_window_size="max" test_hw15_conftest.py
+# Використовувати тільки подвійні лапки, а саме: " .
+# pytest -s -v --browser_window_size="standard" test_hw15_conftest.py
+
+
+
